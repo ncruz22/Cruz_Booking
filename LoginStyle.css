@@ -1,0 +1,115 @@
+body {
+    font-family: 'Open Sans';
+    font-size: 15px;
+    background-color: #F1F9FF;
+}
+.mild {
+    color: #7FC4FD;
+}
+div {
+    color: #375D7D;
+    padding: 10px;
+    
+}
+.center {
+    text-align: center;
+}
+.login {
+    border-radius: 0 0 20px 20px;
+
+    border-style: hidden;
+    padding: 10px;
+    background-color: #BCE0FD;
+}
+.body {
+    background-color: #BCE0FD;
+}
+.box {
+    margin: 100px 400px 0 400px; 
+    border-style: hidden;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #BCE0FD;
+}
+.curveup {
+    border-radius: 20px 20px 0 0;
+}
+input {
+    width: 100%; 
+    padding: 5px 20px;
+    border: none;
+    border-radius: 100px;
+    background-color: #ffffff;
+}
+select {
+    width: 100%; 
+    padding: 12px 20px;
+    border: none;
+    border-radius: 100px;
+    background-color: #7FC4FD;
+}
+#checkbox {
+    width: 30px !important; 
+    padding: 0px !important;
+    border: none;
+    border-radius: 0 !important;
+}
+
+button {
+    background-color: #375D7D;
+    border: none;
+    color: white;
+    border-radius: 100px;
+    width: 200px;
+    height: 60px;
+    font-family: 'Montserrat';
+    font-size: 22px;
+}
+
+#cancel {
+    background-color: #EE5057;
+}
+.white {
+    color: #ffffff; 
+}
+.gray{
+    color: #95B2C9;
+}
+.bluebg {
+    background-color: #008BFD;
+}
+.lblue {
+    background-color: #7FC4FD;
+}
+.top li {
+    font-family: 'Montserrat'; 
+    display: inline-block;
+    font-size: 22px;
+}
+#end {
+    border-radius: 0 0 20px 20px;
+}
+.nopad {
+    padding: 0 0 0 0;
+}
+.mar {
+    margin: 0 0 0 0;
+}
+.notbpad {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+.nolrpad {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+#clicked {
+    border-radius: 20px;
+    background-color: #7FC4FD !important;
+    color: #375D7D !important;
+}
+#unclicked {
+    border-radius: 20px;
+    background-color: #7FE0FD!important;
+    color: #ffffff !important;
+}

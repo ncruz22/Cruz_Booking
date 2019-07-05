@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+        .col-xs-12 {
+            padding: 0px !important;
+        }
+
+        .mst {
+            font-family: 'Montserrat';
+        }
+
+        .center {
+            text-align: center;
+        }
+        #end {
+            border-radius: 0 0 20px 20px;
+            padding: 20px;
+        }
+        img {
+            width: 150px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .but {
+            background-color: #375D7D;
+            border-radius: 20px;
+    
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid mt-3 mb-4 bluebg">
+        <div class="row notbpad">
+            <!-- <div class="col-xs-1"></div> -->
+            <div class="col-xs-5">
+                <img src="profile.PNG" alt="Profile" class="img-responsive">
+            </div>
+            <div class="col-xs-5 nopad">
+                <h3 class="white">User Name</h3>
+                <h4 class="gray">Add Passenger</h4>
+                <h4 class="gray" onclick="window.location.href='1login.v2.html'">Logout</h4>
+            </div>
+            <div class="col-xs-1"></div>
+        </div>
+    
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="col-xs-1"></div>
+                <div class="col-xs-10 body curveup notbpad">
+                    <h3>Flight Board</h3>
+                </div>
+                <!-- <div class="col-xs-1"></div> -->
+            </div>
+
+            <div class="col-xs-12">
+                <div class="col-xs-1"></div>
+                    <div class="col-xs-10 body notbpad">
+                        <h4 class="gray">No Flights</h4>
+                    </div>
+                <!-- <div class="col-xs-1"></div> -->
+            </div>
+
+            <div class="col-xs-12">
+                <div class="col-xs-1"></div>
+                <div class="col-xs-10 body center" id="end"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container-fluid mt-3 mb-4">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="col-xs-4 but" onclick="window.location.href='3bookoneway.v2.html'">
+                    <img src="book.PNG" alt="book" class="img-responsive">
+                    <h3 class="white center">Book</h3>
+                </div>
+
+                <div class="col-xs-4 but" onclick="window.location.href='3bookoneway.v2.html'">
+                    <img src="explore.PNG" alt="explore" class="img-responsive">
+                    <h3 class="white center">Explore</h3>
+                </div>
+
+                <div class="col-xs-4 but" onclick="window.location.href='3bookoneway.v2.html'">
+                        <img src="hotels.PNG".PNG" alt="hotels" class="img-responsive">
+                        <h3 class="white center">Hotels</h3>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+<link rel="stylesheet" href="LoginStyle.css">
+<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+</body>
+
+</html>

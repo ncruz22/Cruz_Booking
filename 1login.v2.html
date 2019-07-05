@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+        .col-xs-12 {
+            padding: 0px !important;
+        }
+        .mst {
+            font-family: 'Montserrat';
+        }
+        .center {
+            text-align: center;
+        }
+        #end {
+            border-radius: 0 0 20px 20px;  
+            padding: 20px; 
+        }
+        #login {
+            background-color:#BCE0FD;
+            color: #375D7D;
+            border-radius: 20px 20px 0 0;
+            font-size: 22px;
+
+        }
+        #signup {
+            background-color: #95B2C9;
+            color: #FFFFFF;
+            border-radius: 20px 20px 0 0;
+            font-size: 22px;
+        }
+        .body {
+            background-color:#BCE0FD;
+        }
+        img {
+            margin-left: auto;
+            margin-right: auto;
+            width: 100px;
+        }
+        #right {
+            float: right;
+        }
+        #left {
+            float: left;
+        }
+        #toppad {
+            padding-top: 0 !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="bluebg"></div>
+    <div class="bluebg"></div>
+    <div class="bluebg"></div>
+    <div class="bluebg"></div>
+    <div class="bluebg"></div>
+<div class="container-fluid mt-3 mb-4" id="toppad">
+    
+    <div class="row nopad">
+        <div class="col-xs-12 bluebg nopad">
+        <div class="col-xs-2"></div>
+            <div class="col-xs-4 center mst" id="login">
+                Login
+            </div>
+            <div class="col-xs-4 center" id="signup"onclick="window.location.href='1signup.html'">
+                Sign up
+            </div>
+        <div class="col-xs-2"></div>   
+        </div>
+
+        <div class="col-xs-12 bluebg">
+        <div class="col-xs-2"></div>    
+            <div class="col-xs-8 body">
+                Username <br>
+                <input type="text">
+            </div>
+        <div class="col-xs-2"></div>  
+        </div>
+        
+        <div class="col-xs-12 bluebg">
+        <div class="col-xs-2"></div>
+            <div class="col-xs-8 body">
+                Password <br>
+                <input type="password">
+            </div>
+        <div class="col-xs-2"></div>             
+        </div>
+
+        <div class="col-xs-12">
+            <div class="col-xs-2"></div>
+            <div class="col-xs-8 body center mild">
+                Forgot Password?
+            </div>
+        </div>
+
+        <div class="col-xs-12">
+            <div class="col-xs-2"></div>
+            <div class="col-xs-8 body center" id="end"></div>
+        </div>
+    </div>
+</div>
+<div class="center">
+        <button onclick="window.location.href='2landing.html'">Login</button> 
+</div>
+
+<div class="center mild">
+        or login with
+</div>
+<div class="container-fluid nopad">
+    <div class="row nopad">
+        <div class="col-xs-3"></div>
+        <div class="col-xs-2 nopad"> <img src="google.PNG" alt="google" onclick="window.location.href='https://myaccount.google.com/intro'" class="img-responsive" id="right"></div>
+        <div class="col-xs-2 nopad"> <img src="fb.PNG" alt="fb" onclick="window.location.href='https://www.facebook.com/'" class="img-responsive"></div>
+        <div class="col-xs-2 nopad"> <img src="twitter.PNG" alt="twitter" onclick="window.location.href='https://twitter.com/'" class="img-responsive" id="left"></div>
+        <div class="col-xs-3"></div>
+    </div>
+</div>
+
+<link rel="stylesheet" href="LoginStyle.css"></body>
+<link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+</body>
+</html>

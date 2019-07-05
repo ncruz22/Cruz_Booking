@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+        .col-xs-12 {
+            padding: 0px !important;
+        }
+
+        .mst {
+            font-family: 'Montserrat';
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        #end {
+            border-radius: 0 0 20px 20px;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid body">
+        <div class="row">
+            <div class="col-xs-12 body nopad">
+                <div class="col-xs-2"></div>
+                <div class="col-xs-8 nopad">
+                    <h2 class="center">
+                    </h2>
+                </div>
+                <div class="col-xs-2"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-3 mb-4">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="col-xs-2"></div>
+                <div class="col-xs-8 body curveup">
+                        Card Number <br>
+                        <input type="number">
+                </div>
+                <div class="col-xs-2"></div>
+            </div>
+
+            <div class="col-xs-12">
+                    <div class="col-xs-2"></div>
+                    <div class="col-xs-8 body">
+                            Card Holder Name <br>
+                            <input type="text">
+                    </div>
+                    <div class="col-xs-2"></div>
+            </div>
+
+            <div class="col-xs-12">
+                    <div class="col-xs-2"></div>
+                    <div class="col-xs-8 body">
+                        Expiration Date <br>
+                        <input type="text" placeholder="MM/YYYY">
+                    </div>
+                    <div class="col-xs-2"></div>
+            </div>
+
+            <div class="col-xs-12">
+                    <div class="col-xs-2"></div>
+                    <div class="col-xs-8 body">
+                        Security Code <br>
+                        <input type="number" placeholder="CVV">
+                    </div>
+                    <div class="col-xs-2"></div>
+            </div>
+    
+            <div class="col-xs-12">
+                    <div class="col-xs-2"></div>
+                    <div class="col-xs-8 body center notbpad" id="end">
+                            <input type="checkbox" id="checkbox">Save card details for later</input>
+                    </div>
+                    <div class="col-xs-2"></div>
+            </div>        
+        </div>
+
+    </div>
+
+    <div class="center">
+        <button id="cancel" onclick="window.location.href='4flightlist.html'">Cancel</button>    
+        <button onclick="window.location.href='6success.html'">Pay</button> 
+    </div>
+    <link rel="stylesheet" href="LoginStyle.css">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+</body>
+
+</html>
